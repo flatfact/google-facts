@@ -566,7 +566,14 @@ p {
 	#infoMenu li a {
 		color: #fff;
     }
-        
+@media (max-widt: 900px) {
+
+.comment-box{
+width: auto;
+height: auto;
+overflow: auto;
+}
+}
     @media (max-width: 767px) {
 
 .content {
@@ -604,7 +611,11 @@ num {
 }
 
 
- 
+.comment-box{
+width: 75%;
+height: 50%;
+overflow: scroll;
+}
     #section0{
         background-image: url(//farm8.staticflickr.com/7705/17347980951_9e180f2b72_o.png);
 background-position: center;
@@ -709,7 +720,7 @@ word-wrap: break-word;
 				navigationPosition: 'right',
 				navigationTooltips: ['Top', '1', '2', '3', '4', '5', '6', '7', '8','9','Comment', 'About'],
 				responsive: 900,
-                                scrollOverflow: true,
+                               
 			});
 		});
 	</script>
@@ -787,7 +798,10 @@ word-wrap: break-word;
 	</div>
     <div class="section" id="section10">
 		<div class="intro"><h1>Comments!</h1>
-           <div class="fb-like" data-href="//hoof.flatfact.com/google-facts/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br><div class="fb-comments" data-href="http://hoof.flatfact.com/google-facts/" data-numposts="3" data-colorscheme="dark"></div>
+           <div class="fb-like" data-href="//hoof.flatfact.com/google-facts/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
+<div class="comment-box">
+<div class="fb-comments" data-href="http://hoof.flatfact.com/google-facts/" data-numposts="3" data-colorscheme="dark"></div>
+</div>
         </div>
 	</div>
     <div class="section" id="section11">
